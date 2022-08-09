@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Dosis', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Rajdhani', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    color: #DAA520;
+    scroll-behavior: smooth;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 3vw;
+}
+
+#heading{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+}
+
+.media-links{
+    opacity: 70%;
+    position: fixed;
+    left: -15px; 
+    bottom: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    background-color: #DAA520;
+    z-index: 100;
+}
+
+.top-btn{
+    opacity: 70%;
+    position: fixed;
+    right: 20px; 
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+.top-btn a{
+    background-color: #DAA520;
+    padding: 5px 15px ;
+    border-radius: 100px;
+    font-size: 40px;
+    color: #212c46;
+    text-decoration: none;
+}
+
+body{
+    background-color: #121212;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7vw;
+    background-color: #202020;
+}
+
+.logo h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    margin-left: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.menu ul li a:hover{
+    border-bottom: 1px solid #DAA520
+}
+
+footer {
+    background-color:#000;
+    color:#fff;
+    height: 100px;
+    padding: 20px 0;
+  }
+  #wrapper {
+    margin-top:30px;
+  }
+  #filter {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+#filter li:hover {
+    background: #303030;
+    cursor:pointer;
+  }
+
+#filter li {
+    margin-right:15px;
+    padding: 10px 15px;
+    background-color: #202020;
+    transition: 0.5s ease-in-out;
+}
+
+  #portfolio {
+    list-style-type: none;
+    padding-left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     
+    }
+  #portfolio  img {
+      width: 300px;
+  }
+
+  #portfolio li {
+    float:left;
+    margin:20px;
+  }
+
+  .active{
+      font-weight: 800;
+  }
+
+
+  footer{
+    padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #202020;
+}
+
+footer p{
+  text-align: center;
+}
+
+#links{
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+#links:hover{
+    text-decoration: underline;
+}
+.all img{
+    transition: all 200ms ease-in-out;
+}
+.all img:hover{
+    transition: all 200ms ease-in-out;
+    transform: scale(1.1);
+}
